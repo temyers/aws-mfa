@@ -10,8 +10,10 @@ This uses the mechanism used by the AWS CLI to manage temporary MFA credentials.
 
 Updating your credentials is a 2 step process:
 
-`aws-mfa-renew.sh`
-`$(aws-mfa.sh)`
+```
+aws-mfa-renew.sh
+$(aws-mfa.sh)
+```
 
 
 ## aws-mfa-renew.sh
